@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm build-db && pnpm update-db && pnpm build",
+  "env": {
+    "SKIP_ENV_VALIDATION": "true"
+  }
+}
